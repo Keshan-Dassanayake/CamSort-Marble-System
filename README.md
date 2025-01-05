@@ -1,21 +1,19 @@
 <h1>CamSort Marble System</h1>
 
 <h2>Description</h2>
-This project simulates a user interface (VI) for a washing machine, designed to provide an intuitive and functional control system for users. The interface enables users to select from three distinct washing modes and visually track the washing process in real time. The system incorporates interactive features for turning the machine on/off, selecting modes, and monitoring washing stages.
-
-The washing modes available are:
-
-Colourful Wash
-Intensive Wash
-Quick Wash
-Each mode consists of three stages: Pre-rinse, Main Washing, and Final Spin. The duration for each stage is dynamically adjusted based on the selected mode. Upon completion, the system displays a message indicating that the washing cycle is finished.
-<br />
+This LabVIEW project implements a vision-based system for detecting and analyzing patterns in images. The front panel provides a user-friendly interface to control the pattern matching process and visualize the results. The block diagram outlines the underlying logic and data flow of the application. <br />
 
 <h2>Features</h2>
 
-<br>1. Turn On/Off Button: Initializes or resets the washing machine interface.</br>
-2. Mode Selection: Allows users to choose between Colourful, Intensive, and Quick Wash modes.</br>
-3. Real-Time Stage Display: Shows the current stage of washing and the remaining time for the stage to complete.</br>
+<br>- Pattern Matching: Utilizes pattern matching techniques to identify and locate specific patterns within an input image. 
+<br>- Parameter Control: Allows users to adjust parameters such as the minimum match score and angle ranges to fine-tune the pattern matching algorithm. 
+<br>- Visualization: Displays the input image and highlights detected patterns, providing visual feedback on the results. 
+<br>- Color Classification: Optionally classifies regions within the image based on color characteristics.
+</br>
 <h2>Utilities Used</h2>
 
 - <b>LabVIEW: For building the virtual instrument and implementing the user interface logic.</b>
+
+<h2>Instructions</h2>
+
+<br> To use, open Vision Assistant for size identification, first open the software. Then, select and isolate the color of the object you want to measure using the color sample tool. This allows the system to accurately identify and distinguish the object from its surroundings. Next, define the Region of Interest (ROI) by drawing a box or selecting a shape around the object within the image. This ROI will be used as the area of focus for size measurements, ensuring accurate and precise results. </br>
